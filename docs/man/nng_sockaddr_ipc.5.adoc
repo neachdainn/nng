@@ -25,7 +25,7 @@ enum sockaddr_family {
 
 typedef struct {
     uint16_t sa_family;
-    uint16_t sa_path[128];
+    char     sa_path[128];
 } nng_sockaddr_ipc;
 ----
 

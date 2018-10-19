@@ -83,7 +83,7 @@ description of the option.
 (`<<nng_sockaddr.5#,nng_sockaddr>>`)
 This read-only option may be used on listeners, dialers and connected pipes, and
 represents the local address used for communication.
-Not all transports support this option, and some transports may support it
+Not all transports support this option, and some transports may support it for
 listeners but not dialers.
 
 [[NNG_OPT_RAW]]

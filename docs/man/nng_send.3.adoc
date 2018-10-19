@@ -29,7 +29,7 @@ length _size_ using the <<nng_socket.5#,socket>> _s_.
 
 NOTE: The semantics of what sending a message means vary from protocol to
 protocol, so examination of the protocol documentation is encouraged.
-(For example, with an <<nng_pub.7#,_nng_>> socket the data is broadcast, so that
+(For example, with a <<nng_pub.7#,_pub_>> socket the data is broadcast, so that
 any peers who have a suitable subscription will be able to receive it using
 `<<nng_recv.3#,nng_recv()>>` or a similar function.)
 Furthermore, some protocols may not support sending data (such as
